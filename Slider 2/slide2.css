@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body{
+    margin: 0;
+    font-size: 15px;
+    background-color: wheat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg{
+   color: black; 
+}
+
+:root{
+    --width-df: min(1200px, 90vw);
+}
+
+header{
+    width: var(--width-df);
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    z-index: 1;
+
+}
+
+header .logo img{
+    width: 50px;
+}
