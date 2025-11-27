@@ -1,97 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Slider</title>
+    <title>Document</title>
     <link rel="stylesheet" href="slide2.css">
 </head>
-
 <body>
+    
     <main>
         <header>
             <figure class="logo">
                 <img src="image/logo.png" alt="">
             </figure>
             <nav>
-                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M18 6H6m12 4H6m12 4H6m12 4H6" />
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
                 </svg>
-
-
             </nav>
         </header>
-
         <section class="slider">
             <div class="list">
-                <div class="items active">
-                    <div class="image" style="--url: url(image/1.jpg)"></div>
+                <div class="item active">
+                    <div class="image" style="--url: url('image/1.jpg')"></div>
                     <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
+                        <h2>Jhon Whick</h2>
+                        <p>
+                            <span style="font-weight: bold;"> "John Wick" </span> is an American action-thriller film series starring <span style="font-weight: bold;"> "Keanu Reeves" </span> as a legendary hitman who comes out of retirement after criminals take away the last connection he had to his late wife.
+                        </p>
+                        
                     </div>
                 </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/2.jpg)"></div>
+                <div class="item ">
+                    <div class="image" style="--url: url('image/2.jpg')"></div>
                     <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
+                        <h2>Vikings</h2>
+                        <p>
+                            <span style="font-weight: bold;"> "Vikings" </span> is a historical drama series that follows legendary warrior Ragnar Lothbrok and his family as they explore new lands, face rival kingdoms, and rise to power.
+                        </p>
                     </div>
                 </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/3.jpg)"></div>
+                <div class="item">
+                    <div class="image" style="--url: url('image/3.jpg')"></div>
                     <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
+                        <h2>Money Heist</h2>
+                        <p>
+                            <span style="font-weight: bold;"> "Money Heist" </span> follows a genius called The Professor who leads a group of skilled criminals to pull off huge, carefully planned heists on Spain’s biggest institutions.
+                        </p>
                     </div>
                 </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/4.jpg)"></div>
+                <div class="item">
+                    <div class="image" style="--url: url('image/4.jpg')"></div>
                     <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
-                    </div>
-                </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/5.jpg)"></div>
-                    <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
-                    </div>
-                </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/6.jpg)"></div>
-                    <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
-                    </div>
-                </div>
-
-                <div class="items">
-                    <div class="image" style="--url: url(image/7.jpg)"></div>
-                    <div class="content">
-                        <h2>Jhon Wick</h2>
-                        <p>When you think you have nothing to lose you get Stronger</p>
+                        <h2>Game of Thorne</h2>
+                        <p>
+                           <span style="font-weight: bold;"> "Game of Thrones" </span>  is a fantasy series about powerful families fighting for control of the Iron Throne in the kingdom of Westeros.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="arrows">
-                <button ></button>
+                <button id="prev">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                    </svg>
+                </button>
             </div>
-
         </section>
     </main>
 
 
+
     <script src="slide2.js"></script>
 </body>
-
-</html>
