@@ -204,7 +204,8 @@ header .logo img {
     bottom: 3px;
     width: var(--width-df);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 
 }
 
