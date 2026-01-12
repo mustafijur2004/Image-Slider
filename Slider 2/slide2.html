@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider UI</title>
+    <link rel="stylesheet" href="slide2.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <figure class="logo">
+                <img src="image/logo.png" alt="">
+            </figure>
+            <nav>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M18 6H6m12 4H6m12 4H6m12 4H6" />
+                </svg>
+
+            </nav>
+
+        </header>
+
+        <section class="slider">
+            <div class="list">
+                <div class="item active">
+                    <div class="image" style="--url: url('image/1.jpg')"></div>
+                    <div class="content">
+                        <h2>Jhon Wick</h2>
+                        <p>John Wick is an American action-thriller film series starring Keanu Reeves as a legendary
+                            hitman who comes out of retirement after criminals take away the last connection he had to
+                            his late wife.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="item ">
+                    <div class="image" style="--url: url('image/2.jpg')"></div>
+                    <div class="content">
+                        <h2>Vikings</h2>
+                        <p>Vikings is a historical drama series that follows legendary warrior Ragnar Lothbrok and his
+                            family as they explore new lands, face rival kingdoms, and rise to power.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="image" style="--url: url('image/3.jpg')"></div>
+                    <div class="content">
+                        <h2>Money Heist</h2>
+                        <p>Money Heist follows a genius called The Professor who leads a group of skilled criminals to
+                            pull off huge, carefully planned heists on Spain’s biggest institutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="image" style="--url: url('image/4.jpg')"></div>
+                    <div class="content">
+                        <h2>Game of Thrones</h2>
+                        <p>Game of Thrones is a fantasy series about powerful families fighting for control of the Iron
+                            Throne in the kingdom of Westeros.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m15 19-7-7 7-7" />
+                    </svg>
+
+                </button>
+
+                <button id="next">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m9 5 7 7-7 7" />
+                    </svg>
+
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="slide2.js"></script>
+
+</body>
+
+</html>
